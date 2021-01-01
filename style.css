@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 60px;
+}
+
+.animation{
+    height: 50vh;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    position: relative;
+    overflow: hidden;
+}
+.camera{
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
